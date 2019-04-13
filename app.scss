@@ -1,0 +1,43 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+/* RGB */
+$color1: rgba(5, 102, 141, 1);
+$color2: rgba(66, 122, 161, 1);
+$color3: rgba(235, 242, 250, 1);
+$color4: rgba(103, 148, 54, 1);
+$color5: rgba(165, 190, 0, 1);
+
+html {
+  background: $color3;
+  color: $color1;
+  text-align: center;
+}
+
+h1 {
+  font-size: 12vw;
+  font-weight: 900;
+
+  span {
+    color: $color2;
+  }
+}
+
+nav {
+  font-size: 3.5vw;
+  font-weight: 200;
+
+  a {
+    color: $color4;
+    display: block;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      color: $color5
+    }
+  }
+}
