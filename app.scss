@@ -1,33 +1,31 @@
 @import 'node_modules/reset-css/reset';
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0%{background-position:11% 0%}
+  50%{background-position:90% 100%}
+  100%{background-position:11% 0%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0%{background-position:11% 0%}
+  50%{background-position:90% 100%}
+  100%{background-position:11% 0%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0%{background-position:11% 0%}
+  50%{background-position:90% 100%}
+  100%{background-position:11% 0%}
 }
 
 html {
-  color: #FAEFF0;
+  color: rgb(255, 247, 248);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   height: 100%;
+  background: linear-gradient(140deg, #bee6f0, #efd7e1, #bee6f0);
+  background-size: 600% 600%;
 
-  background: linear-gradient(300deg, #ff6ad5, #c774e8, #ad8cff, #8795e8, #94d0ff);
-  background-size: 1000% 1000%;
-  background-repeat: no-repeat;
-
-  -webkit-animation: AnimationName 17s ease infinite;
-  -moz-animation: AnimationName 17s ease infinite;
-  animation: AnimationName 17s ease infinite;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 
 body {
@@ -59,13 +57,13 @@ ul {
   }
 
   a {
-    color: #FAEFF0;
+    color: rgb(255, 247, 248);
     text-decoration: none;
     font-weight: 400;
 
     &:hover {
       text-decoration: underline;
-      color: #FFCDD8;
+      color: rgb(255, 247, 248);
     }
   }
 }
