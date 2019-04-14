@@ -1,43 +1,75 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+@import 'node_modules/reset-css/reset';
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
-
-/* RGB */
-$color1: rgba(5, 102, 141, 1);
-$color2: rgba(66, 122, 161, 1);
-$color3: rgba(235, 242, 250, 1);
-$color4: rgba(103, 148, 54, 1);
-$color5: rgba(165, 190, 0, 1);
-
 html {
-  background: $color3;
-  color: $color1;
-  text-align: center;
+  color: #FAEFF0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100%;
+
+  background: linear-gradient(300deg, #ff6ad5, #c774e8, #ad8cff, #8795e8, #94d0ff);
+  background-size: 1000% 1000%;
+  background-repeat: no-repeat;
+
+  -webkit-animation: AnimationName 17s ease infinite;
+  -moz-animation: AnimationName 17s ease infinite;
+  animation: AnimationName 17s ease infinite;
+}
+
+body {
+  padding: 0 20px;
+}
+.content {
+  max-width: 100%;
+  overflow: hidden;
 }
 
 h1 {
   font-size: 12vw;
-  font-weight: 900;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: #F293BB;
+  margin-bottom: 0.2em;
+}
 
-  span {
-    color: $color2;
+ul {
+  font-size: 6.5vw;
+  font-weight: 200;
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+
+  li {
+    padding-bottom: 0.2em;
+  }
+
+  a {
+    color: #FAEFF0;
+    text-decoration: none;
+    font-weight: 400;
+
+
+    &:hover {
+      text-decoration: underline;
+      color: #FFCDD8;
+    }
   }
 }
 
-nav {
-  font-size: 3.5vw;
-  font-weight: 200;
-
-  a {
-    color: $color4;
-    display: block;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-      color: $color5
-    }
-  }
+.js .fit {
+  display: inline-block;
+  white-space: nowrap;
 }

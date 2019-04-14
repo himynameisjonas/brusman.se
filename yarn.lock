@@ -2169,6 +2169,11 @@ fill-range@^4.0.0:
     repeat-string "^1.6.1"
     to-regex-range "^2.1.0"
 
+fitty@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/fitty/-/fitty-2.2.6.tgz#19d6d1f2c95919545e9450e9e2b6b1a4b2a01a5f"
+  integrity sha512-Y3N3rQ2oWfPXOrSJwAZmBDaWINNpj6O2YQ2NiORk3kXKCw7gwc/cuBZgtYvr9AWpJqVwboyoswocPcqRmoyxEA==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -4296,6 +4301,11 @@ request@^2.72.0, request@^2.87.0:
     tough-cookie "~2.4.3"
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
+
+reset-css@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/reset-css/-/reset-css-4.0.1.tgz#1f8456a8be478bc435ce9775b7878ec82cca6b05"
+  integrity sha512-aQFi5IxXVegVTfz0hOmXsPSmc8tlPDQOkfatHfPu3Cm6id7UXM4OzXfsaUWJEgV2yrCngsagpIb3wHXPjKAx+Q==
 
 resolve-from@^3.0.0:
   version "3.0.0"
